@@ -1,0 +1,174 @@
+/* IMPOSTAZIONI GENERALI */
+body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+}
+
+/* HEADER */
+
+header{
+    background-color: rgb(86, 150, 240);
+    border-radius: 15px;
+}
+
+#titolo{
+    text-align: center;
+    font-size: 60px;
+    padding: 60px;
+    text-transform: uppercase;
+}
+#testo{
+    color: rgb(32, 32, 90);
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+/* MAIN */
+
+#info{
+    text-align: center;
+    color: rgb(0, 106, 255);
+    font-size: 30px;
+    
+}
+
+figure{
+    text-align: center;
+}
+
+address{
+    text-align: center;
+    font-style: initial;
+}
+#numeri{
+    color: rgb(199, 0, 73);
+}
+#sudime{
+    font-style: inherit;
+}
+
+#presentazione{
+    text-align: center;
+    color: rgb(0, 128, 255);
+}
+
+
+#sviluppatore{
+    color: rgb(0, 136, 255);
+}
+
+#formazione{
+    text-align: center;
+    color: rgb(0, 128, 255);
+}
+
+#votazione{
+    background-color: rgb(0, 157, 255);
+    color: white;
+}
+#diploma{
+    text-align: center;
+    font-style: inherit;
+}
+#link{
+    color: red;
+}
+
+#comp{
+    text-align: center;
+    color: rgb(0, 128, 255);
+}
+
+#conoscenze{
+    color: black;
+    font-style: inherit;
+    text-align: center;
+}
+
+#contorno{
+    color: black;
+    text-align: center;
+    
+}
+
+#elenco{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#sviluppo{
+
+    text-align: center;
+    
+}
+
+
+/* ELEMENTI NEL MAIN */
+#info{
+    color: blue;
+    font-weight: bold;
+}
+
+#su{ color: black;
+    font-size: large;
+    font-size: 40;
+
+}
+span{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+}
+#uno{
+    color: white;
+}
+blockquote{
+    font-style: italic;
+    color: black;
+    background-color: rgb(191, 189, 189);
+    border-radius: 15px;
+    padding: 15px;
+    
+}
+
+h2{
+    color: blue;
+}
+
+
+
+
+/* FOOTER */
+#foot{
+    text-align: center;
+    background-color: gray;
+    color: white;
+
+
+}
+
+#cv{
+    color: red;
+}
+
+#ctrl{
+   color: yellow;
+   font-style: inherit;
+}
+#footdue{
+    font-size: x-small;
+    font-style: italic;
+    text-align: center;
+}
+#pie{
+    font-size: x-small;
+    font-style: italic;
+}

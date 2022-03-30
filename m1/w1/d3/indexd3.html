@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+
+<body>
+    
+    <h1>Ordina la tua pizza</h1>
+
+    <form method="get" action="pagina-a-cui-navigare-e-mandare-dati.php">
+        <h3>Scegli la pizza</h3>
+    <select name="gusto">
+       
+        
+
+        <option>--Scegli pizza--</option>
+        <option value="margherita">Margherita</option>
+        <option value="diavola">Diavola</option>
+        <option value="capricciosa">Capricciosa</option>
+   
+    </select>
+
+        <h3>Scegli il tipo</h3>
+
+    <label for="tipo-sottile"> Sottile:</label>
+    <input id="tipo-sottile" value="sottile" type="radio" name="tipo" checked>
+   
+    <label for="tipo-napoletana">Napoletana:</label> 
+    <input id="tipo-napoletana" value="napoletana" type="radio" name="tipo">
+
+    <h3>Aggiunte</h3>
+
+    Bufala<input type="checkbox" name="aggiunta-bufala" id="aggiunta-bufala">
+    Prosciutto <input type="checkbox" name="aggiunta-prosciutto" id="aggiunta-prosciutto">
+    Mozzarella <input type="checkbox" name="aggiunta-mozzarella" id="aggiunta-mozzarella">
+
+    <hr>
+    
+    <h3>Dati spedizione</h3>
+    
+    <label for="nome">Nome:</label>
+    <input id="nome" type="text" placeholder="scrivi il tuo nome" name="nome">
+
+    <!-- due modi per inviare il form-->
+    <button>Ordina</button>
+    <input type="submit" value="ordina">
+
+
+
+    </form>
+
+</body>
+
+
+</html>
