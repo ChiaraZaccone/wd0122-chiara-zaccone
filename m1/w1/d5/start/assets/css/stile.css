@@ -1,0 +1,189 @@
+/*Header*/
+
+
+
+#img{
+    background-color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+header{
+    background-image: url(/start/assets/images/banner.jpg);
+    background-position: center;
+    background-size: auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: 2rem;
+}
+
+#uno{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+
+.bottone{
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color:#fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*Main*/
+
+h3{
+    color: #25a2c3;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    
+    padding-top: 20px;
+    font-size: 1rem;
+}
+
+section div{
+    text-align: center;
+}
+
+#pc{
+    border-radius: 100%;
+    padding-top: 20px;
+    text-align: center;
+   
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    line-height: 25px;
+}
+
+#libertà{
+    padding-bottom: 2rem;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: 2rem;
+}
+
+blockquote{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+cite{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#red{
+    background-color: #e22d0e;
+    padding-bottom: 2rem;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+#ceo{
+    font-size: small;
+    
+}
+
+#mario{
+    font-size:larger;
+    
+}
+
+article p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+aside article{
+    text-align: center;
+    margin: 20px;
+    border: rgb(220, 220, 220);
+    border-style: solid;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-width: 1px;
+}
+
+article img{
+    width: 100%;
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    background-color: #25a2c3;
+    padding-bottom: 1rem;
+}
+
+footer h2{
+    color: white;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer i{
+    color: white;
+    line-height: 2rem;
+}
+
+footer a{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2rem;
+    font-stretch: expanded;
+    font-size: large;
+}
+hr{
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer p{
+    color: white;
+
+}
+
+#chiama{
+    line-height: 2rem;
+}
+
+#copy{
+    font-size: small;
+}
