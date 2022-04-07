@@ -1,0 +1,147 @@
+.lavagna{
+    height: 400px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: rgb(91, 89, 89);
+    padding: 50px;
+}
+
+.post1{
+    background-color:rgb(217, 217, 217);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    transform: rotate(-3deg);
+    box-shadow: 5px 9px 10px 1px #4b4b4b;
+}
+
+div p{
+    font-style: italic;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.post2{
+
+    background-color:rgb(129, 242, 186);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    transform: rotate(3deg);
+    box-shadow: 5px 9px 10px 1px #4b4b4b;
+
+}
+
+.post3{
+
+    background-color:rgb(189, 129, 242);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    transform: rotate(-3deg);
+    box-shadow: 5px 9px 10px 1px #4b4b4b;
+
+}
+
+.post4{
+
+    background-color:rgb(129, 242, 186);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    transform: rotate(3deg);
+    box-shadow: 5px 9px 10px 1px #4b4b4b;
+
+}
+
+.post5{
+    background-color:rgb(217, 217, 217);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    transform: rotate(-3deg);
+    box-shadow: 5px 9px 10px 1px #4b4b4b;
+}
+
+.post6{
+
+    background-color:rgb(189, 129, 242);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    transform: rotate(3deg);
+    box-shadow: 5px 9px 10px 1px #4b4b4b;
+
+}
+.post7{
+    background-color:rgb(217, 217, 217);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    transform: rotate(3deg);
+    box-shadow: 5px 9px 10px 1px #4b4b4b;
+}
+
+.post8{
+
+    background-color:rgb(129, 242, 186);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    transform: rotate(-3deg);
+    box-shadow: 5px 9px 10px 1px #4b4b4b;
+
+}
+
+.post1:hover{
+    transition: transform 1s;
+    transform: rotate(3deg);
+    transform: scale(1.5, 1.5);
+    cursor: pointer;
+}
+
+.post2:hover{
+    transition: transform 1s;
+    transform: rotate(3deg);
+    transform: scale(1.5, 1.5);
+    cursor: pointer;
+}
+
+.post3:hover{
+    transition: transform 1s;
+    transform: rotate(3deg);
+    transform: scale(1.5, 1.5);
+    cursor: pointer;
+}
+
+.post4:hover{
+    transition: transform 1s;
+    transform: rotate(3deg);
+    transform: scale(1.5, 1.5);
+    cursor: pointer;
+}
+
+
+
+.post6:hover{
+    transition: transform 1s;
+    transform: rotate(1deg);
+    transform: scale(1.5, 1.5);
+    cursor: pointer;
+}
+.post7:hover{
+    transition: transform 1s;
+    transform: rotate(1deg);
+    transform: scale(1.5, 1.5);
+    cursor: pointer;
+}
+
+.post8:hover{
+    transition: transform 1s;
+    transform: rotate(1deg);
+    transform: scale(1.5, 1.5);
+    cursor: pointer;
+}
+
