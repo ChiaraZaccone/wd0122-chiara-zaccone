@@ -8,13 +8,16 @@
     padding: 50px;
 }
 
+
+
 .post1{
     background-color:rgb(217, 217, 217);
     text-align: center;
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 40px;
     transform: rotate(-3deg);
     box-shadow: 5px 9px 10px 1px #4b4b4b;
+    font-family: 'Grape Nuts', cursive;
 }
 
 div p{
@@ -28,9 +31,10 @@ div p{
     background-color:rgb(129, 242, 186);
     text-align: center;
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 40px;
     transform: rotate(3deg);
     box-shadow: 5px 9px 10px 1px #4b4b4b;
+    font-family: 'Grape Nuts', cursive;
 
 }
 
@@ -39,9 +43,10 @@ div p{
     background-color:rgb(189, 129, 242);
     text-align: center;
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 40px;
     transform: rotate(-3deg);
     box-shadow: 5px 9px 10px 1px #4b4b4b;
+    font-family: 'Grape Nuts', cursive;
 
 }
 
@@ -50,9 +55,10 @@ div p{
     background-color:rgb(129, 242, 186);
     text-align: center;
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 40px;
     transform: rotate(3deg);
     box-shadow: 5px 9px 10px 1px #4b4b4b;
+    font-family: 'Grape Nuts', cursive;
 
 }
 
@@ -60,9 +66,10 @@ div p{
     background-color:rgb(217, 217, 217);
     text-align: center;
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 40px;
     transform: rotate(-3deg);
     box-shadow: 5px 9px 10px 1px #4b4b4b;
+    font-family: 'Grape Nuts', cursive;
 }
 
 .post6{
@@ -70,18 +77,20 @@ div p{
     background-color:rgb(189, 129, 242);
     text-align: center;
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 40px;
     transform: rotate(3deg);
     box-shadow: 5px 9px 10px 1px #4b4b4b;
+    font-family: 'Grape Nuts', cursive;
 
 }
 .post7{
     background-color:rgb(217, 217, 217);
     text-align: center;
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 40px;
     transform: rotate(3deg);
     box-shadow: 5px 9px 10px 1px #4b4b4b;
+    font-family: 'Grape Nuts', cursive;
 }
 
 .post8{
@@ -89,9 +98,10 @@ div p{
     background-color:rgb(129, 242, 186);
     text-align: center;
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 40px;
     transform: rotate(-3deg);
     box-shadow: 5px 9px 10px 1px #4b4b4b;
+    font-family: 'Grape Nuts', cursive;
 
 }
 
@@ -111,7 +121,7 @@ div p{
 
 .post3:hover{
     transition: transform 1s;
-    transform: rotate(3deg);
+    transform: rotate(6deg);
     transform: scale(1.5, 1.5);
     cursor: pointer;
 }
@@ -123,24 +133,29 @@ div p{
     cursor: pointer;
 }
 
-
+.post5:hover{
+    transition: transform 1s;
+    transform: rotate(3deg);
+    transform: scale(1.5, 1.5);
+    cursor: pointer;
+}
 
 .post6:hover{
     transition: transform 1s;
-    transform: rotate(1deg);
+    transform: rotate(3deg);
     transform: scale(1.5, 1.5);
     cursor: pointer;
 }
 .post7:hover{
     transition: transform 1s;
-    transform: rotate(1deg);
+    transform: rotate(3deg);
     transform: scale(1.5, 1.5);
     cursor: pointer;
 }
 
 .post8:hover{
     transition: transform 1s;
-    transform: rotate(1deg);
+    transform: rotate(3deg);
     transform: scale(1.5, 1.5);
     cursor: pointer;
 }
