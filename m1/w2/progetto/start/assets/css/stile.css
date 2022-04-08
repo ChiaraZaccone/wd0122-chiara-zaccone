@@ -25,6 +25,7 @@ header{
 #logo{
     padding-top: 10px;
     padding-left: 10px;
+    
    
 }
 
@@ -281,4 +282,84 @@ address{
     margin-left: 20px;
     margin-right: 10px;
 }
+
+/* chi siamo */
+
+
+
+.chisiamo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.pch{
+    text-align: center;
+    line-height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.imc{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.prezzocorsi{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 40px;
+}
+
+.prezzario{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.prezzario td, .prezzario th{
+    padding: 8px;
+}
+
+.prezzario tr:nth-child(even){
+    background-color: #d2dce7;
+}
+
+.prezzario th{
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #486585;
+    color: white;
+}
+
+.prezzario tr{
+    text-align: center;
+}
+
+
+.prezzo{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+.prezzo td:nth-child(1){
+    font-weight: bold;
+}
+
+.prezzo tr:nth-child(n+7){
+    background-color: #d2dce7;
+}
+
+.prezzo tr:nth-child(1), .prezzario tr:nth-child(2), .prezzo tr:nth-child(3){
+    background-color: #d2dce7;
+}
+
+
+
 /* RESPONSIVE */
