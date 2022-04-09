@@ -36,12 +36,14 @@ nav{
     padding-top: 0px;
     font-size: 30px;
     color: rgb(243, 17, 43);
+    position: sticky;
 }
 
 nav a{
     color: black;
     text-decoration: none;
     line-height: 20px;
+    position: sticky;
     
     
 }
@@ -313,43 +315,25 @@ address{
     padding-left: 50px;
     padding-right: 50px;
     margin-bottom: 40px;
+    line-height: 20px;
+    padding-top: 10px;
 }
 
-.prezzario{
-    border-collapse: collapse;
-    width: 100%;
-}
-
-.prezzario td, .prezzario th{
-    padding: 8px;
-}
-
-.prezzario tr:nth-child(even){
-    background-color: #d2dce7;
-}
-
-.prezzario th{
-
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: center;
-    background-color: #486585;
-    color: white;
-}
-
-.prezzario tr{
-    text-align: center;
-}
 
 
 .prezzo{
     border-collapse: collapse;
     width: 100%;
     text-align: left;
+    line-height: 20px;
+    padding-left: 40px;
 }
 
 .prezzo td:nth-child(1){
     font-weight: bold;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .prezzo tr:nth-child(n+7){
@@ -360,6 +344,10 @@ address{
     background-color: #d2dce7;
 }
 
+.mille{
+    background-color: #d2dce7;
+
+}
 
 
 /* RESPONSIVE */
