@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="js/script.js">
+    <link rel="stylesheet" href="css/stile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="dog">
+    <div class="body"></div>
+    <div class="leg1"></div>
+    <div class="leg2"></div>
+    <div class="leg3"></div>
+    <div class="leg4"></div>
+    <div class="tail"></div>
+    <div class="ear"></div>
+    <div class="nose"></div>
+    <div class="eye"></div>
+   <div class="tongue"></div>
+    <div class="cursor"></div>
+</div>
+<div class="bone">
+    <div class="c1"></div>
+    <div class="c2"></div>
+    <div class="c3"></div>
+    <div class="c4"></div>
+    <div class="b1">
+      <div class="b2"></div>
+      
+      
+    </div>
+    <div class="sound"> <p onmouseover="PlaySound('mySound')" 
+        onmouseout="StopSound('mySound')">Touch Me</p></div>
+    
+    <audio id='mySound' src='mp3/bauosso.mp3'/>
+</div>
+
+    <div id="calcolatrice">
+        <form name="form">
+          <input class="area" name="monitor" value="" placeholder="BAU!">
+          <input name="last" type="hidden" value="">
+          <input name="oper" type="hidden" value="">
+          <input name="res" type="hidden" value="">
+          <table id="calc">
+         
+            <tr>
+          <td><input type="button" value="1" onclick="digit(1);"></td>
+          <td><input type="button" value="2" onclick="digit(2);"></td>
+          <td><input type="button" value="3" onclick="digit(3);"></td>
+          <td><input type="button" value="C"  onclick="del();"></td>
+          
+            </tr>  
+            <tr>
+          <td><input type="button" value="4" onclick="digit(4);"></td>
+          <td><input type="button" value="5" onclick="digit(5);"></td>
+          <td><input type="button" value="6" onclick="digit(6);"></td>
+          <td><input type="button" value="+" onclick="ar('+');"></td>
+          
+            </tr>  
+            <tr>
+          <td><input type="button" value="7" onclick="digit(7);"></td>
+          <td><input type="button" value="8" onclick="digit(8);"></td>
+          <td><input type="button" value="9" onclick="digit(9);"></td>
+          <td><input type="button" value="-" onclick="ar('-');"></td>
+            </tr>  
+            <tr>
+          <td><input type="button" value="0" onclick="digit(0);" ></td>
+          <td><input type="button" value="x" onclick="ar('*');"></td>
+          
+  
+          <td><input type="button" value="&divide;"  onclick="ar('/');"></td>
+          <td><input type="button" value="=" onclick="result();olay()"></td>
+            </tr>  
+          </table>
+        </form>
+       </div>
+       <audio id="click" src="mp3/baucalc.mp3"></audio>
+   
+       <script src="js/script.js"></script>
+</body>
+</html>
